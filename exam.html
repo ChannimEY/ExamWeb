@@ -3,15 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exam Html CSS</title>
+    <title>Exam</title>
     <link rel="stylesheet" href="exam.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
     <!-- Header -->
@@ -20,27 +13,14 @@
         <div class="logo">
           <p>Tour-giude</p>
         </div>
-        <!-- <i class="fa-solid fa-bars"></i> -->
-
-        <div class="nav-bar">
-          <ul >
-            <input type="checkbox" id="check" />
-            <span class="menu">
-              <li><a href="#story">Stories</a></li>
-              <li><a href="#galeries">Gallery</a></li>
-              <li><a href="#feature">Feature</a></li>
-              <li><a href="#write">Write to us</a></li>
-
-              <label for="check" class="close-menu"
-                ><i class="fas fa-times"></i
-              ></label>
-            </span>
-            <label for="check" class="open-menu"
-              ><i class="fas fa-bars"></i
-            ></label>
+        <div class="menu">
+          <ul>
+            <li><a href="">Stories</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Write to us</a></li>
           </ul>
         </div>
-
         <div class="social">
           <ul>
             <li>
@@ -76,7 +56,6 @@
     <!-- Main -->
     <main>
       <!-- Story Section -->
-      <p id="story"></p>
       <section class="story">
         <div class="story-item">
           <div class="content">
@@ -97,14 +76,15 @@
             <img
               src="https://img.freepik.com/premium-photo/campfire-with-campfire-forest_1117680-20995.jpg"
               alt="Campfire by the river"
-              style="height: 600px"
+              style="height: 600px;"
+
             />
           </div>
         </div>
         <hr />
 
-        <div class="story-item" id="story2">
-          <div class="image2">
+        <div class="story-item">
+          <div class="image">
             <img
               src="https://www.thoughtco.com/thmb/97dWT8G-ym630B4VJIe1PR-OcN8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/486910525-56af61fd3df78cf772c3c2e4.jpg"
               alt="Burning Firewood"
@@ -115,10 +95,10 @@
             <p>
               Maecenas in enim eget interdum laoreet. Vestibulum tempus risus
               nec commodo. Lorem ipsum dolor sit amet, consectetur adipiscing
-              elit. amet consectetur adipisicing elit. stias vel doisus nec
-              commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Quisque at rutrum elor, cumque velit, blanditiis uisquam
-              magnatates error ratione? Cupiditate, dignissimos?
+              elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Sit, odit dolorem molestias vel dolor, cumque velit, blanditiis
+              qui consectetur harum a quisquam magnam possimus eum voluptates
+              error ratione? Cupiditate, dignissimos?
             </p>
             <button class="btn">More</button>
           </div>
@@ -129,34 +109,27 @@
             <h2>Story</h2>
             <p>
               Vestibulum tempus risus nec commodo. Lorem ipsum dolor sit amet,
-              consectetur adipiscing eisus nec commodo. Lorem ipsum dolor sit
-              amet, consectetur adipiscing elit. Quisque at rutrum eisus nec
-              Quisque at rutrum elit. Quisque at rutrum el
+              consectetur adipiscing elit. Quisque at rutrum elit.
             </p>
             <button class="btn">More</button>
           </div>
-          <div class="image2">
+          <div class="image">
             <img
               src="https://www.westporthouse.ie/wp-content/uploads/2024/02/starry-sky-beach-collage-2-1067x800.jpg"
               alt="Lantern at sunset"
             />
           </div>
         </div>
-        <hr />
       </section>
 
       <!-- Gallery -->
-       <p id="galeries"></p>
       <h2>Gallery</h2>
       <section class="gallery" id="gallery">
         <img
-          id="img1"
           src="https://media.licdn.com/dms/image/v2/D4D12AQF08Nh27q4wQw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1695641321229?e=2147483647&v=beta&t=VLMhU445Zmq443GkraM3EMkAWGYBbrMm2nkKS12q8Ok"
           alt=""
         />
         <img
-          id="img1"
-          class="img2"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6a1VdKLSEka3AId2MJ_qQ7Hh-lwfB4GkNlQ&s"
           alt=""
         />
@@ -166,13 +139,11 @@
           alt=""
         />
         <img
-          id="img3"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHd9OubqP_xCB0Na8wplOBZjDjJl7ThTQjt_A1OFN6m3EntlyTPWehWCRcUmZd60j7j2E&usqp=CAU"
           alt=""
         />
       </section>
       <!-- Feature -->
-      <p id="feature"></p>
       <section class="feature">
         <h2>Feature</h2>
         <div class="container">
@@ -215,7 +186,6 @@
           </div>
         </div>
       </section>
-      <p id="write"></p>
       <!-- Write to us -->
       <h2>Write to us</h2>
       <section class="writeToUs">
